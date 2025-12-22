@@ -196,7 +196,7 @@ const Add = ({ token }) => {
   }
 
   return (
-    <form onSubmit={onSubmitHandler} className='h-350 sm:h-auto'>
+    <form onSubmit={onSubmitHandler} className='h-580 sm:h-auto'>
 
       {/* CATEGORY */}
       <div>
@@ -390,3 +390,4 @@ const Price = ({ price, setPrice }) => (
 )
 
 export default Add
+

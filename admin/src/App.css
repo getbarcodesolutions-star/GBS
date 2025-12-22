@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../public/fonts/Gilroy-Light.ttf);
+}
+
+* {
+    font-family: Gilroy;
+}
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+
+@utility bg-dark {
+    @apply bg-[#041121]
+}
+@utility bg-blue {
+    @apply bg-[#00183b]
+}
